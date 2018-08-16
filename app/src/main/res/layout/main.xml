@@ -4,7 +4,7 @@
 	      android:orientation="vertical"
 	      android:layout_width="match_parent"
 	      android:layout_height="match_parent"
-	      android:background="@drawable/back1"
+	      android:background="@drawable/ryutron1"
 	      android:gravity="bottom"
 	      >
 
@@ -13,7 +13,7 @@
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
       android:layout_gravity="center_horizontal"
-      android:textSize="44px"
+      android:textSize="44dp"
       android:textColor="#FFFFFF"
       />
   
@@ -22,26 +22,26 @@
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
       android:layout_gravity="center_horizontal"
-      android:textSize="20px"
+      android:textSize="20dp"
       android:textColor="#FFFFFF"
       />
   
   <CalendarView
      android:id="@+id/calendarView1"
      android:layout_width="match_parent"
-     android:layout_height="235px"
-     android:layout_marginTop="4px" />
+     android:layout_height="235dp"
+     android:layout_marginTop="4dp" />
 
   <LinearLayout
      android:id="@+id/linearLayout1"
      android:layout_width="fill_parent"
      android:layout_height="wrap_content"
      android:orientation="horizontal"
-     android:layout_marginTop="5px" >
+     android:layout_marginTop="5dp" >
      
     <ImageButton android:id="@+id/sms1"
-		 android:layout_width="80px"
-		 android:layout_height="80px"
+		 android:layout_width="80dp"
+		 android:layout_height="80dp"
 		 android:layout_gravity="center_horizontal"
 		 android:scaleType="fitCenter"
 		 android:padding="0px"
@@ -50,8 +50,8 @@
 		 android:src="@drawable/mamamail" />
     
     <ImageButton android:id="@+id/sms2"
-		 android:layout_width="80px"
-		 android:layout_height="80px"
+		 android:layout_width="80dp"
+		 android:layout_height="80dp"
 		 android:layout_gravity="center_horizontal"
 		 android:scaleType="fitCenter"
 		 android:padding="0px"
@@ -60,8 +60,8 @@
 		 android:src="@drawable/papamail" />
     
     <ImageButton android:id="@+id/skype"
-		 android:layout_width="80px"
-		 android:layout_height="80px"
+		 android:layout_width="80dp"
+		 android:layout_height="80dp"
 		 android:layout_gravity="center_horizontal"
 		 android:scaleType="fitCenter"
 		 android:padding="0px"
@@ -70,8 +70,8 @@
 		 android:src="@drawable/skype" />
     
     <ImageButton android:id="@+id/led_button"
-		 android:layout_width="80px"
-		 android:layout_height="80px"
+		 android:layout_width="80dp"
+		 android:layout_height="80dp"
 		 android:layout_gravity="center_horizontal"
 		 android:scaleType="fitCenter"
 		 android:padding="0px"
