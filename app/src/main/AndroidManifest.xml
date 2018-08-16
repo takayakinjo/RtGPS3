@@ -46,6 +46,11 @@
               android:label="@string/app_name">
     </activity>
 
+    <activity
+        android:name="passenterActivity"
+        android:label="@string/app_name">
+    </activity>
+
     <!-- Get location command intent --> 
 
     <receiver

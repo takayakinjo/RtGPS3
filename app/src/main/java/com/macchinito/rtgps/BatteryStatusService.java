@@ -8,8 +8,6 @@ import android.os.IBinder;
 
 import android.util.Log;
 
-import android.widget.Toast;
-
 import android.content.BroadcastReceiver;
 import android.os.BatteryManager;
 
