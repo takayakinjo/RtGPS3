@@ -123,6 +123,14 @@ public class MainActivity extends Activity {
 		    intentActivity.putExtra("with", with);
 		    context.startActivity(intentActivity);
 		    */
+
+				Intent smsIntent = new Intent(Intent.ACTION_VIEW);
+				smsIntent.setType("vnd.android-dir/mms-sms");
+				smsIntent.putExtra("address", "09041781684");
+				// smsIntent.putExtra("sms_body","Body of Message");
+				startActivity(smsIntent);
+
+/*
 				Intent intentActivity = new Intent();
 				intentActivity.setAction(Intent.ACTION_VIEW);
 				intentActivity.setClassName("com.macchinito.rtsms", "com.macchinito.rtsms.BalloonMessageActivity");
@@ -134,7 +142,7 @@ public class MainActivity extends Activity {
 				} catch (Exception e) {
 					Toast.makeText(context, "対象のアプリがありません", Toast.LENGTH_SHORT).show();
 				}
-
+*/
 			}
 		});
 
@@ -142,6 +150,11 @@ public class MainActivity extends Activity {
 		buttonSMS2.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {
+				Intent smsIntent = new Intent(Intent.ACTION_VIEW);
+				smsIntent.setType("vnd.android-dir/mms-sms");
+				smsIntent.putExtra("address", "09018083349");
+				startActivity(smsIntent);
+				/*
 				int with = 1;
 				Intent intentActivity = new Intent();
 				intentActivity.setAction(Intent.ACTION_VIEW);
@@ -154,6 +167,7 @@ public class MainActivity extends Activity {
 				} catch (Exception e) {
 					Toast.makeText(context, "対象のアプリがありません", Toast.LENGTH_SHORT).show();
 				}
+				*/
 			}
 		});
 
